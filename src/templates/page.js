@@ -5,6 +5,7 @@ import get from 'lodash/get'
 import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
+import Hero from '../components/hero'
 
 class PageTemplate extends React.Component {
   render() {
@@ -15,6 +16,8 @@ class PageTemplate extends React.Component {
       <Layout location={this.props.location}>
         <div style={{ background: '#fff' }}>
           <Helmet title={`${page.title} | ${siteTitle}`} />
+
+          {page.image && <Hero data={page} />}
 
           <div
             className="wrapper"
@@ -39,6 +42,17 @@ export const pageQuery = graphql`
     }
     contentfulPage(slug: { eq: $slug }) {
       title
+      image {
+        fixed {
+          aspectRatio
+          width
+          height
+          src
+          srcSet
+          srcWebp
+          srcSetWebp
+        }
+      }
       body {
         childMarkdownRemark {
           html

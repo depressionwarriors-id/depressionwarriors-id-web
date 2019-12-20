@@ -16,7 +16,7 @@ class BlogIndex extends React.Component {
         <div>
           <Helmet title={`Blog Posts | ${siteTitle}`} />
           <div className="wrapper">
-            <h2 className="section-headline">Recent articles</h2>
+            <h2 className="section-headline">Blog Posts</h2>
             <ul className="article-list">
               {posts.map(({ node }) => {
                 return (
@@ -42,6 +42,7 @@ export const pageQuery = graphql`
         title
       }
     }
+
     allContentfulBlogPost(sort: { fields: [publishDate], order: DESC }) {
       edges {
         node {
