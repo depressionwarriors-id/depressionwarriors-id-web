@@ -1,13 +1,8 @@
 {
-  "name": "Contentful Gatsby Starter",
-  "description": "Gatsby starter for a Contentful project.",
-  "keywords": [
-    "contentful",
-    "gatsby",
-    "static",
-    "ssg"
-  ],
-  "repository": "https://github.com/contentful-userland/gatsby-contentful-starter",
+  "name": "Depression Warriors Indonesia",
+  "description": "Depression Warriors Indonesia community website.",
+  "keywords": ["depression", "warriors", "indonesia", "community"],
+  "repository": "https://github.com/depressionwarriors-id/depressionwarriors-id-web",
   "success_url": "/",
   "buildpacks": [
     {

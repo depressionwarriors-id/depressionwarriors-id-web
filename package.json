@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-contentful-starter",
-  "description": "Starter Contentful Gatsby Blog",
+  "name": "depressionwarriors-id-web",
+  "description": "Depression Warriors Indonesia community website.",
   "version": "1.0.0",
-  "author": "Stefan Judis <stefanjudis@gmail.com>",
+  "author": "M Haidar Hanif <tech@mhaidarhanif.com>",
   "bugs": {
-    "url": "https://github.com/contentful-userland/gatsby-contentful-starter/issues"
+    "url": "https://github.com/depressionwarriors-id/depressionwarriors-id-web/issues"
   },
   "dependencies": {
     "gatsby-image": "^2.0.38",
@@ -33,10 +33,10 @@
     "rimraf": "^2.6.3",
     "yargs-parser": "^13.0.0"
   },
-  "homepage": "https://github.com/contentful-userland/gatsby-contentful-starter#readme",
+  "homepage": "https://github.com/depressionwarriors-id/depressionwarriors-id-web#readme",
   "keywords": [
-    "gatsby",
-    "contentful"
+    "depression",
+    "warriors"
   ],
   "license": "MIT",
   "main": "n/a",
